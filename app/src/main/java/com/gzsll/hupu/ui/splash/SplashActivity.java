@@ -1,12 +1,8 @@
 package com.gzsll.hupu.ui.splash;
 
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.FrameLayout;
 
-import com.example.agc.aigoucai.activity.MainWebviewActivity;
-import com.example.agc.aigoucai.util.IntentUtil;
-import com.example.agc.aigoucai.util.SharePreferencesUtil;
 import com.gzsll.hupu.R;
 import com.gzsll.hupu.ui.BaseActivity;
 import com.gzsll.hupu.ui.main.MainActivity;
@@ -66,20 +62,20 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
 
     @Override
     public void showMainUi() {
-//        MainActivity.startActivity(SplashActivity.this);
-//        String action = getIntent().getAction();
-//        if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
-//            MessageActivity.startActivity(SplashActivity.this);
-//        }
-//        finish();
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                Bundle bundleTab = new Bundle();
-                bundleTab.putString("url","www.baidu.com");
-                IntentUtil.gotoActivity(SplashActivity.this, MainWebviewActivity.class, bundleTab, false);
-            }
-        });
+        MainActivity.startActivity(SplashActivity.this);
+        String action = getIntent().getAction();
+        if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
+            MessageActivity.startActivity(SplashActivity.this);
+        }
+        finish();
+//        runOnUiThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                Bundle bundleTab = new Bundle();
+//                bundleTab.putString("url","www.baidu.com");
+//                IntentUtil.gotoActivity(SplashActivity.this, MainWebviewActivity.class, bundleTab, false);
+//            }
+//        });
 
     }
 
