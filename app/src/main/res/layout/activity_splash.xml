@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/splash"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/bg_splash_home" />
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/iv_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/aigoucai_welcome" />
+
+        <ImageView
+            android:id="@+id/iv_weihu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/weihu"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+
+    //https://blog.csdn.net/qq_35244415/article/details/60377673
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicator="BallPulse"
+        app:indicator_color="@color/grey_hint"
+        />
+
+</FrameLayout>

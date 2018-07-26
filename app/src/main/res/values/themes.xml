@@ -19,7 +19,12 @@
     <style name="AppThemeLight" parent="BaseAppThemeLight">
         <item name="themeColor">@color/md_green_500</item>
     </style>
-
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
     <style name="AppThemeLight.NoTranslucent" parent="BaseAppThemeLight">
         <item name="android:windowIsTranslucent">false</item>
     </style>

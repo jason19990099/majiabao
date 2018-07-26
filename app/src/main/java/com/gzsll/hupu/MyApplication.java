@@ -57,7 +57,7 @@ public class MyApplication extends Application {
         });
         initFrescoConfig();
         ToastUtil.register(this);
-        LeakCanary.install(this);
+//        LeakCanary.install(this);
     }
 
     private void initComponent() {
