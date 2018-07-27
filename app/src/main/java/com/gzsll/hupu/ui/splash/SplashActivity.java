@@ -56,11 +56,8 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
     private Gson gson = new Gson();
     public static final String ACTION_NOTIFICATION_MESSAGE =
             "com.gzsll.hupu.ACTION_NOTIFICATION_MESSAGE";
-
-
     @Inject
     SplashPresenter mPresenter;
-
     @Override
     public int initContentView() {
         return R.layout.activity_splash;
@@ -82,8 +79,6 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
         mPresenter.attachView(this);
         mPresenter.initUmeng();
         mPresenter.initHuPuSign();
-
-
     }
 
     @Override
@@ -154,15 +149,8 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                                             startActivity(intent);
                                         }catch (Exception e){
                                             e.printStackTrace();
-                                            MainActivity.startActivity(SplashActivity.this);
-                                            String action = getIntent().getAction();
-                                            if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
-                                                MessageActivity.startActivity(SplashActivity.this);
-                                            }
+                                            goHUPU();
                                         }
-
-
-
                                     finish();
                                 }
                             }, 1000);
@@ -170,31 +158,31 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                             Looper.loop();
 
                         } else {
-                            MainActivity.startActivity(SplashActivity.this);
-                            String action = getIntent().getAction();
-                            if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
-                                MessageActivity.startActivity(SplashActivity.this);
-                            }
+                            goHUPU();
                         }
                     } else {
-                        MainActivity.startActivity(SplashActivity.this);
-                        String action = getIntent().getAction();
-                        if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
-                            MessageActivity.startActivity(SplashActivity.this);
-                        }
+                        goHUPU();
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
-                    MainActivity.startActivity(SplashActivity.this);
-                    String action = getIntent().getAction();
-                    if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
-                        MessageActivity.startActivity(SplashActivity.this);
-                    }
+                    goHUPU();
                 }
             }
         }).start();
 
 
+    }
+
+
+    /**
+     *  走虎撲
+     */
+    private void goHUPU() {
+        MainActivity.startActivity(SplashActivity.this);
+        String action = getIntent().getAction();
+        if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
+            MessageActivity.startActivity(SplashActivity.this);
+        }
     }
 
 
