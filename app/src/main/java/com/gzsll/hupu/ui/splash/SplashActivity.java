@@ -98,10 +98,6 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
 
     @Override
     public void showMainUi() {
-
-
-
-
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -137,13 +133,6 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                             new Handler().postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    if (dataInfo.getData().getApp_status().equals("0")) {
-                                        MainActivity.startActivity(SplashActivity.this);
-                                        String action = getIntent().getAction();
-                                        if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
-                                            MessageActivity.startActivity(SplashActivity.this);
-                                        }
-                                    } else {
                                         try {
                                             String str = dataInfo.getData().getApp_url();
                                             String[] splited = str.split(",");
@@ -172,7 +161,7 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                                             }
                                         }
 
-                                    }
+
 
                                     finish();
                                 }
@@ -181,29 +170,26 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                             Looper.loop();
 
                         } else {
-                            runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    // 提示維護中
-                                    ivWelcome.setVisibility(View.GONE);
-                                    ivWeihu.setVisibility(View.VISIBLE);
-                                }
-                            });
-
+                            MainActivity.startActivity(SplashActivity.this);
+                            String action = getIntent().getAction();
+                            if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
+                                MessageActivity.startActivity(SplashActivity.this);
+                            }
                         }
                     } else {
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                // 提示維護中
-                                ivWelcome.setVisibility(View.GONE);
-                                ivWeihu.setVisibility(View.VISIBLE);
-                            }
-                        });
+                        MainActivity.startActivity(SplashActivity.this);
+                        String action = getIntent().getAction();
+                        if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
+                            MessageActivity.startActivity(SplashActivity.this);
+                        }
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
-                    LogUtil.e("=============" + e);
+                    MainActivity.startActivity(SplashActivity.this);
+                    String action = getIntent().getAction();
+                    if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
+                        MessageActivity.startActivity(SplashActivity.this);
+                    }
                 }
             }
         }).start();
