@@ -14,30 +14,38 @@ android {
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 43
+        flavorDimensions "43"
         versionName "1.24"
+
     }
 
     signingConfigs {
-        def isRelease = gradle.startParameter.taskNames.any { it.contains('Release') }
-        def path = isRelease ? properties.getProperty("keystore.path") : 'debug.keystore'
-        def password = isRelease ? properties.getProperty("keystore.password") : ''
-        def alias = isRelease ? properties.getProperty("keystore.alias") : ''
-        myConfig {
-            storeFile file(path)
-            storePassword password
-            keyAlias alias
-            keyPassword password
+        ruiyinSign {
+            keyAlias 'key0'
+            keyPassword '775854'
+            storeFile file('D:/Signature/500cp.jks')
+            storePassword '775854'
         }
     }
 
-
     buildTypes {
         release {
-            signingConfig signingConfigs.myConfig
             minifyEnabled false
-            zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.ruiyinSign
         }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${variant.productFlavors[0].name}-${defaultConfig.versionName}-${defaultConfig.versionCode}" +
+                    "-${releaseTime()}-${variant.buildType.name}.apk"
+        }
+    }
+
+    // 打包的渠道
+    productFlavors {
+        aigoucai {}
     }
 
     lintOptions {
@@ -49,6 +57,11 @@ repositories {
         dirs 'libs'
     }
 
+}
+
+//获取当前打包的时间
+def static releaseTime() {
+    return new Date().format("yyyyMMdd-HHmmss")
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
