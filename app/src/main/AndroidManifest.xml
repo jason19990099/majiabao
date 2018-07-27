@@ -124,7 +124,7 @@
 
         <provider
             android:name=".provider.LocalImageProvider"
-            android:authorities="com.gzsll.hupu" />
+            android:authorities="com.gzsll.hupu1" />
 
     </application>
 
