@@ -13,8 +13,8 @@ android {
         applicationId "com.aigoucai.majiaaigoucai"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 7
-        versionName "1.2.4"
+        versionCode 43
+        versionName "1.24"
     }
 
     signingConfigs {
