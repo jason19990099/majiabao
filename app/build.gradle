@@ -6,15 +6,15 @@ Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 28
     buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "com.aigoucai.majiaaigoucai"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 22
-        versionCode 42
-        versionName "2.2"
+        versionCode 7
+        versionName "1.2.4"
     }
 
     signingConfigs {
@@ -100,10 +100,10 @@ dependencies {
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
 
-    implementation(name: 'socketrelease', ext: 'aar')
-//    implementation 'com.tonystark.android:socketreleaseet:1.2.3'
+    implementation(name: 'app-release', ext: 'aar')
     implementation 'org.greenrobot:eventbus:3.1.1' //EventBus事件分发器
     implementation'com.wang.avi:library:1.0.0'
     implementation'com.nineoldandroids:library:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.tonystark.android:socket:1.2.3'
 }

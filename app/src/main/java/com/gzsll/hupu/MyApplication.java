@@ -21,6 +21,7 @@ import com.gzsll.hupu.util.ToastUtil;
 import com.liulishuo.filedownloader.FileDownloader;
 import com.liulishuo.filedownloader.util.FileDownloadHelper;
 import com.squareup.leakcanary.LeakCanary;
+import com.xuhao.android.libsocket.sdk.OkSocket;
 
 import java.util.List;
 
@@ -58,6 +59,10 @@ public class MyApplication extends Application {
         initFrescoConfig();
         ToastUtil.register(this);
 //        LeakCanary.install(this);
+
+        //        OkSocket.initialize(this);
+        //如果需要开启Socket调试日志,请配置
+        OkSocket.initialize(this, true);
     }
 
     private void initComponent() {

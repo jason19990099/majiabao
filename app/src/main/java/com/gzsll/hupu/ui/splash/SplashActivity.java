@@ -1,5 +1,6 @@
 package com.gzsll.hupu.ui.splash;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -8,17 +9,23 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.agc.aigoucai.activity.MainWebviewActivity;
+import com.example.agc.aigoucai.activity.SelectLinesActivity;
+import com.example.agc.aigoucai.bean.base;
 import com.example.agc.aigoucai.util.IntentUtil;
 import com.example.agc.aigoucai.util.LogUtil;
 import com.example.agc.aigoucai.util.SharePreferencesUtil;
+import com.example.agc.aigoucai.util.SocketUtil;
 import com.example.agc.aigoucai.util.TrustAllCerts;
 import com.google.gson.Gson;
+import com.gzsll.hupu.Base;
 import com.gzsll.hupu.R;
 import com.gzsll.hupu.ui.BaseActivity;
 import com.gzsll.hupu.ui.main.MainActivity;
 import com.gzsll.hupu.ui.messagelist.MessageActivity;
 
 import java.security.SecureRandom;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
@@ -33,6 +40,8 @@ import butterknife.ButterKnife;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+
+import static com.gzsll.hupu.Base.appid;
 
 
 /**
@@ -91,6 +100,8 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
     public void showMainUi() {
 
 
+
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -108,8 +119,9 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                                 }
                             })
                             .build();
+                    LogUtil.e("=======Base.majiabao_url+appid==========" + Base.majiabao_url + appid);
                     Request request = new Request.Builder()
-                            .url("https://hk1.android.jrapp.me/switch/1")//请求接口。如果需要传参拼接到接口后面。
+                            .url(Base.majiabao_url + appid)//请求接口。如果需要传参拼接到接口后面。
                             .build();//创建Request 对象
                     Response response = null;
                     response = client.newCall(request).execute();//得到Response 对象
@@ -131,12 +143,34 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
                                         if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
                                             MessageActivity.startActivity(SplashActivity.this);
                                         }
-                                        finish();
                                     } else {
-                                        Bundle bundleTab = new Bundle();
-                                        bundleTab.putString("url", dataInfo.getData().getApp_url());
-                                        SharePreferencesUtil.addString(SplashActivity.this, "main_url", dataInfo.getData().getApp_url());
-                                        IntentUtil.gotoActivity(SplashActivity.this, MainWebviewActivity.class, bundleTab, false);
+                                        try {
+                                            String str = dataInfo.getData().getApp_url();
+                                            String[] splited = str.split(",");
+                                            List<String> ip_array = new ArrayList<>();
+                                            ip_array.clear();
+                                            for (int i = 0; i < splited.length; i++) {
+                                                ip_array.add(splited[i]);
+                                                LogUtil.e("====splited======" + splited[i]);
+                                            }
+                                            LogUtil.e("======ip_array==========" + ip_array.size());
+                                            //ip和端口号传进去
+                                            SocketUtil socketUtil = new SocketUtil(ip_array, Integer.valueOf(dataInfo.getData().getExtend_1_url()));
+                                            //调取方法开始连接
+                                            socketUtil.getSocketConection();
+
+                                            Intent intent=new Intent(SplashActivity.this, SelectLinesActivity.class);
+                                            intent.putExtra("appid",Base.appid);
+                                            intent.putExtra("share_url", Base.share_url);
+                                            startActivity(intent);
+                                        }catch (Exception e){
+                                            e.printStackTrace();
+                                            MainActivity.startActivity(SplashActivity.this);
+                                            String action = getIntent().getAction();
+                                            if (TextUtils.equals(action, ACTION_NOTIFICATION_MESSAGE)) {
+                                                MessageActivity.startActivity(SplashActivity.this);
+                                            }
+                                        }
 
                                     }
 
@@ -197,10 +231,4 @@ public class SplashActivity extends BaseActivity implements SplashContract.View 
         mPresenter.detachView();
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // TODO: add setContentView(...) invocation
-
-    }
 }
