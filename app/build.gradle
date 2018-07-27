@@ -113,7 +113,7 @@ dependencies {
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
 
-    implementation(name: 'app-release101', ext: 'aar')
+    implementation(name: 'app-release', ext: 'aar')
     implementation 'org.greenrobot:eventbus:3.1.1' //EventBus事件分发器
     implementation'com.wang.avi:library:1.0.0'
     implementation'com.nineoldandroids:library:2.4.0'
