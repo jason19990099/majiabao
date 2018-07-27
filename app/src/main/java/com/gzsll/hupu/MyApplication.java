@@ -23,10 +23,13 @@ import com.liulishuo.filedownloader.util.FileDownloadHelper;
 import com.squareup.leakcanary.LeakCanary;
 import com.xuhao.android.libsocket.sdk.OkSocket;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.inject.Inject;
 
+import cn.jpush.android.api.JPushInterface;
 import okhttp3.OkHttpClient;
 
 /**
@@ -63,6 +66,14 @@ public class MyApplication extends Application {
         //        OkSocket.initialize(this);
         //如果需要开启Socket调试日志,请配置
         OkSocket.initialize(this, true);
+
+        //初始化sdk
+        JPushInterface.setDebugMode(true);//正式版的时候设置false，关闭调试
+        JPushInterface.init(this);
+        //建议添加tag标签，发送消息的之后就可以指定tag标签来发送了
+        Set<String> set = new HashSet<>();
+        set.add("andfixdemo");//名字任意，可多添加几个
+        JPushInterface.setTags(this, set, null);//设置标签
     }
 
     private void initComponent() {
