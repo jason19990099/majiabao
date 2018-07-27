@@ -8,11 +8,11 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="baijialeDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleBaijialeDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileBaijialeDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="aigoucaiDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleAigoucaiDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileAigoucaiDebugSources" />
         <afterSyncTasks>
-          <task>generateBaijialeDebugSources</task>
+          <task>generateAigoucaiDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
@@ -23,67 +23,67 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/intermediates/classes/baijiale/debug" />
-    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/baijiale/debug" />
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/aigoucai/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/aigoucai/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/baijiale/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/baijiale/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/baijiale/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/baijiale/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/baijiale/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/baijiale/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/baijiale/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijialeDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/baijiale/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/baijiale/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/baijiale/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/baijiale/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/baijiale/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/baijiale/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/baijiale/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijialeDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/baijiale/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijialeDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/baijiale/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestBaijiale/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testBaijiale/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/aigoucai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/aigoucai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/aigoucai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/aigoucai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/aigoucai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/aigoucai/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/aigoucai/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucaiDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/aigoucai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/aigoucai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/aigoucai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/aigoucai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/aigoucai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/aigoucai/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/aigoucai/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucaiDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/aigoucai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucaiDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aigoucai/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAigoucai/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAigoucai/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
