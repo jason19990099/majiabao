@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/GreenDaoGenerator/GreenDaoGenerator.iml" filepath="$PROJECT_DIR$/GreenDaoGenerator/GreenDaoGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/majiabao.iml" filepath="$PROJECT_DIR$/majiabao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/majiabao-app.iml" filepath="$PROJECT_DIR$/app/majiabao-app.iml" />
     </modules>
   </component>
 </project>
