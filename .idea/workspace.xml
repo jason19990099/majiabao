@@ -35,10 +35,69 @@
       <file leaf-file-name="SplashActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/ui/splash/SplashActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="253">
+              <caret line="161" column="94" lean-forward="false" selection-start-line="161" selection-start-column="94" selection-end-line="161" selection-end-column="94" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectLinesActivity.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/app-release2.aar/4894af6beda5ba6f92f119e97da442af/jars/classes.jar!/com/example/agc/aigoucai/activity/SelectLinesActivity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2760">
+              <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+              <folding>
+                <marker date="1532670800787" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1532670800787" expanded="false" signature="157:2172" ph="..." />
+                <marker date="1532670800787" expanded="false" signature="2973:3037" ph="handleMessage(msg) → {" />
+                <marker date="1532670800787" expanded="false" signature="3295:3306" ph="}" />
+                <marker date="1532670800787" expanded="true" signature="3454:3461" ph="{}" />
+                <marker date="1532670800787" expanded="true" signature="3528:4997" ph="{...}" />
+                <marker date="1532670800787" expanded="false" signature="4346:4442" ph="onClick(dialog, which) → {" />
+                <marker date="1532670800787" expanded="false" signature="4613:4632" ph="}" />
+                <marker date="1532670800787" expanded="true" signature="5026:5461" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="5491:5572" ph="{...}" />
+                <marker date="1532670800787" expanded="false" signature="5599:5610" ph=" { " />
+                <marker date="1532670800787" expanded="false" signature="5650:5656" ph=" }" />
+                <marker date="1532670800787" expanded="true" signature="5727:9457" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="5764:9407" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="5967:9397" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="9517:10037" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="10070:10128" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="10134:10211" ph="@{...}" />
+                <marker date="1532670800787" expanded="true" signature="10271:10771" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="10810:11031" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="11064:11146" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="11205:13683" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="11243:11254" ph="{}" />
+                <marker date="1532670800787" expanded="true" signature="11286:13677" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="13727:16817" ph="{...}" />
+                <marker date="1532670800787" expanded="true" signature="13751:13762" ph="{}" />
+                <marker date="1532670800787" expanded="false" signature="13793:13808" ph=" { " />
+                <marker date="1532670800787" expanded="false" signature="13857:13867" ph=" }" />
+                <marker date="1532670800787" expanded="false" signature="13905:13920" ph=" { " />
+                <marker date="1532670800787" expanded="false" signature="13929:13939" ph=" }" />
+                <marker date="1532670800787" expanded="false" signature="13977:13992" ph=" { " />
+                <marker date="1532670800787" expanded="false" signature="14007:14017" ph=" }" />
+                <marker date="1532670800787" expanded="true" signature="14092:16811" ph="{...}" />
+                <marker date="1532670800787" expanded="false" signature="14542:14632" ph="onClick(view) → {" />
+                <marker date="1532670800787" expanded="false" signature="15375:15394" ph="}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-release.aar" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/libs/app-release.aar">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="apk-viewer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -55,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="102" column="37" lean-forward="false" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -79,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding>
                 <element signature="e#700#718#0" expanded="true" />
                 <element signature="e#906#924#0" expanded="true" />
@@ -91,7 +150,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/Base.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -2569,10 +2628,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/MyApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/ui/splash/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/Base.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -2754,19 +2813,19 @@
     <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\majiabao\app\libs" />
       <recent name="D:\majiabao\app\src\main\res\mipmap-xxhdpi" />
-      <recent name="D:\majiabao\app\src\main\res\mipmap-xhdpi" />
+      <recent name="D:\majiabao\app\src\main\res\mipmap-mdpi" />
+      <recent name="D:\majiabao\app\src\main\res\drawable-xhdpi" />
+      <recent name="D:\majiabao\app\src\main\res\layout" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gzsll.hupu.ui.splash" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\majiabao\app\src\main\res\mipmap-xxhdpi" />
-      <recent name="D:\majiabao\app\libs" />
-      <recent name="D:\majiabao\app\src\main\res\mipmap-mdpi" />
-      <recent name="D:\majiabao\app\src\main\res\drawable-xhdpi" />
-      <recent name="D:\majiabao\app\src\main\res\layout" />
+      <recent name="D:\majiabao\app\src\main\res\mipmap-xhdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2944,7 +3003,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2957,11 +3015,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7149075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30032644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30032644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20575693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20575693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63003266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3009,94 +3067,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/app-release.aar/680b060dc6da6fa54cc080d27d0ec463/jars/classes.jar!/com/example/agc/aigoucai/activity/SelectLinesActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="105" column="6" lean-forward="false" selection-start-line="105" selection-start-column="6" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <marker date="1532604339836" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1532604339836" expanded="false" signature="157:2224" ph="..." />
-            <marker date="1532604339836" expanded="true" signature="2971:3290" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="3020:3284" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="3438:3445" ph="{}" />
-            <marker date="1532604339836" expanded="true" signature="3512:5059" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="4430:4694" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="4503:4680" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="5088:5523" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="5553:5634" ph="{...}" />
-            <marker date="1532604339836" expanded="false" signature="5661:5672" ph=" { " />
-            <marker date="1532604339836" expanded="false" signature="5712:5718" ph=" }" />
-            <marker date="1532604339836" expanded="true" signature="5789:9519" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="5826:9469" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="6029:9459" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="9579:10099" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="10132:10190" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="10196:10273" ph="@{...}" />
-            <marker date="1532604339836" expanded="true" signature="10333:10833" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="10872:11093" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="11126:11208" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="11267:13730" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="11305:11316" ph="{}" />
-            <marker date="1532604339836" expanded="true" signature="11348:13724" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="13774:16702" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="13798:13809" ph="{}" />
-            <marker date="1532604339836" expanded="false" signature="13840:13855" ph=" { " />
-            <marker date="1532604339836" expanded="false" signature="13904:13914" ph=" }" />
-            <marker date="1532604339836" expanded="false" signature="13952:13967" ph=" { " />
-            <marker date="1532604339836" expanded="false" signature="13976:13986" ph=" }" />
-            <marker date="1532604339836" expanded="false" signature="14024:14039" ph=" { " />
-            <marker date="1532604339836" expanded="false" signature="14054:14064" ph=" }" />
-            <marker date="1532604339836" expanded="true" signature="14139:16696" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="14629:15279" ph="{...}" />
-            <marker date="1532604339836" expanded="true" signature="14678:15265" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/apprelease.aar/c2dbe56ee4af2db2b27e9954be217871/jars/classes.jar!/com/example/agc/aigoucai/activity/SelectLinesActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="13" />
-          <folding>
-            <marker date="1532661103072" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1532661103072" expanded="false" signature="157:2172" ph="..." />
-            <marker date="1532661103072" expanded="false" signature="2973:3037" ph="handleMessage(msg) → {" />
-            <marker date="1532661103072" expanded="false" signature="3295:3306" ph="}" />
-            <marker date="1532661103072" expanded="true" signature="3454:3461" ph="{}" />
-            <marker date="1532661103072" expanded="true" signature="3528:4997" ph="{...}" />
-            <marker date="1532661103072" expanded="false" signature="4346:4442" ph="onClick(dialog, which) → {" />
-            <marker date="1532661103072" expanded="false" signature="4613:4632" ph="}" />
-            <marker date="1532661103072" expanded="true" signature="5026:5461" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="5491:5572" ph="{...}" />
-            <marker date="1532661103072" expanded="false" signature="5599:5610" ph=" { " />
-            <marker date="1532661103072" expanded="false" signature="5650:5656" ph=" }" />
-            <marker date="1532661103072" expanded="true" signature="5727:9457" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="5764:9407" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="5967:9397" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="9517:10037" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="10070:10128" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="10134:10211" ph="@{...}" />
-            <marker date="1532661103072" expanded="true" signature="10271:10771" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="10810:11031" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="11064:11146" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="11205:13683" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="11243:11254" ph="{}" />
-            <marker date="1532661103072" expanded="true" signature="11286:13677" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="13727:16817" ph="{...}" />
-            <marker date="1532661103072" expanded="true" signature="13751:13762" ph="{}" />
-            <marker date="1532661103072" expanded="false" signature="13793:13808" ph=" { " />
-            <marker date="1532661103072" expanded="false" signature="13857:13867" ph=" }" />
-            <marker date="1532661103072" expanded="false" signature="13905:13920" ph=" { " />
-            <marker date="1532661103072" expanded="false" signature="13929:13939" ph=" }" />
-            <marker date="1532661103072" expanded="false" signature="13977:13992" ph=" { " />
-            <marker date="1532661103072" expanded="false" signature="14007:14017" ph=" }" />
-            <marker date="1532661103072" expanded="true" signature="14092:16811" ph="{...}" />
-            <marker date="1532661103072" expanded="false" signature="14542:14632" ph="onClick(view) → {" />
-            <marker date="1532661103072" expanded="false" signature="15375:15394" ph="}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -3111,7 +3081,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/app-release.aar">
+    <entry file="file://$PROJECT_DIR$/app/libs/app-release2.aar">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3467,14 +3437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/ui/splash/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/apprelease.aar/c2dbe56ee4af2db2b27e9954be217871/jars/classes.jar!/com/example/agc/aigoucai/activity/SelectLinesActivity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-368">
@@ -3519,10 +3481,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/app-release.aar">
+    <entry file="file://$PROJECT_DIR$/app/libs/app-release2.aar">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="apk-viewer">
@@ -3540,7 +3503,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="e#700#718#0" expanded="true" />
             <element signature="e#906#924#0" expanded="true" />
@@ -3551,18 +3514,81 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gzsll/hupu/ui/splash/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="161" column="94" lean-forward="false" selection-start-line="161" selection-start-column="94" selection-end-line="161" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/app-release2.aar/4894af6beda5ba6f92f119e97da442af/jars/classes.jar!/com/example/agc/aigoucai/activity/SelectLinesActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2760">
+          <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <marker date="1532670800787" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1532670800787" expanded="false" signature="157:2172" ph="..." />
+            <marker date="1532670800787" expanded="false" signature="2973:3037" ph="handleMessage(msg) → {" />
+            <marker date="1532670800787" expanded="false" signature="3295:3306" ph="}" />
+            <marker date="1532670800787" expanded="true" signature="3454:3461" ph="{}" />
+            <marker date="1532670800787" expanded="true" signature="3528:4997" ph="{...}" />
+            <marker date="1532670800787" expanded="false" signature="4346:4442" ph="onClick(dialog, which) → {" />
+            <marker date="1532670800787" expanded="false" signature="4613:4632" ph="}" />
+            <marker date="1532670800787" expanded="true" signature="5026:5461" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="5491:5572" ph="{...}" />
+            <marker date="1532670800787" expanded="false" signature="5599:5610" ph=" { " />
+            <marker date="1532670800787" expanded="false" signature="5650:5656" ph=" }" />
+            <marker date="1532670800787" expanded="true" signature="5727:9457" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="5764:9407" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="5967:9397" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="9517:10037" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="10070:10128" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="10134:10211" ph="@{...}" />
+            <marker date="1532670800787" expanded="true" signature="10271:10771" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="10810:11031" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="11064:11146" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="11205:13683" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="11243:11254" ph="{}" />
+            <marker date="1532670800787" expanded="true" signature="11286:13677" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="13727:16817" ph="{...}" />
+            <marker date="1532670800787" expanded="true" signature="13751:13762" ph="{}" />
+            <marker date="1532670800787" expanded="false" signature="13793:13808" ph=" { " />
+            <marker date="1532670800787" expanded="false" signature="13857:13867" ph=" }" />
+            <marker date="1532670800787" expanded="false" signature="13905:13920" ph=" { " />
+            <marker date="1532670800787" expanded="false" signature="13929:13939" ph=" }" />
+            <marker date="1532670800787" expanded="false" signature="13977:13992" ph=" { " />
+            <marker date="1532670800787" expanded="false" signature="14007:14017" ph=" }" />
+            <marker date="1532670800787" expanded="true" signature="14092:16811" ph="{...}" />
+            <marker date="1532670800787" expanded="false" signature="14542:14632" ph="onClick(view) → {" />
+            <marker date="1532670800787" expanded="false" signature="15375:15394" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/app-release.aar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="102" column="37" lean-forward="false" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
           <folding />
         </state>
       </provider>
